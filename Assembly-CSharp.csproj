@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ADC13D15-5E3B-EF1B-82F3-0E09F0117868}</ProjectGuid>
+    <ProjectGuid>{7660E62F-88D8-897E-D4A3-7854ECB75F37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -113,6 +113,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
@@ -147,7 +148,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>/Volumes/Seagate/VR_Nanodegree/Storytellers Revenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>/Users/Tavo/UDACITY/StorytellersRevenge/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
